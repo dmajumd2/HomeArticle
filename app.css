@@ -99,6 +99,7 @@ h2 {
 p {
     margin-left: 20px;
     margin-top: 20px;
+    margin-right: 20px;
 }
 
 .footer {
@@ -148,7 +149,7 @@ li a:hover {
 {
     body {
         width: 100%;
-        font-size: 95%;
+        font-size: 85%;
     }
 
     #container {
@@ -203,18 +204,27 @@ li a:hover {
      
      #mainbody h2 {
          color: #cf5c3f;
-         margin-left: 20px;
+         margin-left: 8px;
      }
 
      
     .top-content {
         width: 100%;
+
     }
 
     .bottom-content {
         width: 100%;
         margin-top: 1%;
     }
+
+    p {
+        margin-left: 8px;
+        margin-top: 5px;
+        margin-right: 8px;
+        margin-bottom: 8px;
+    }
+    
 
 
     #sidebar {
