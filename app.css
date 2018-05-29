@@ -71,6 +71,7 @@ h2 {
     float: right;
     width: 200px; 
     background-color: azure;
+    padding-bottom: 5px;
 }
 
 .side-content-middle {
@@ -81,6 +82,7 @@ h2 {
     float: right;
     width: 200px; 
     background-color: azure;
+    padding-bottom: 5px;
 }
 
 .side-content-bottom {
@@ -91,6 +93,7 @@ h2 {
     float: right;
     width: 200px; 
     background-color: azure;
+    padding-bottom: 5px;
 }
 
 p {
@@ -98,12 +101,16 @@ p {
     margin-top: 20px;
 }
 
-#footer {
+.footer {
     height: 50px;
     clear: both;
     background-color: gray;
     border-radius: 5px;
-    text-align: center;
+    text-align: left;
+}
+
+.footer p {
+    padding-top: 17px;
 }
 
 .red {
@@ -144,6 +151,16 @@ li a:hover {
         font-size: 95%;
     }
 
+    #container {
+        width: 90%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+    
+
     #header img {
         width: 100%;
     }
@@ -176,6 +193,46 @@ li a:hover {
         padding: 10px 25px;
         text-decoration: none;
     }
+
+
+    #mainbody { 
+        width: 100%;
+        float: left;
+        margin-top: 2%;
+     }
+     
+     #mainbody h2 {
+         color: #cf5c3f;
+         margin-left: 20px;
+     }
+
+     
+    .top-content {
+        width: 100%;
+    }
+
+    .bottom-content {
+        width: 100%;
+        margin-top: 1%;
+    }
+
+
+    #sidebar {
+        width: 100%;
+        float: left;
+    }
     
+    .side-content-top {
+        width: 100%; 
+    }
+    
+    .side-content-middle {
+        width: 100%; 
+    }
+    
+    .side-content-bottom {
+        width: 100%; 
+    }
+        
 }
 
