@@ -1,0 +1,113 @@
+
+#container {
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    border: 1px solid gray; 
+}
+
+#header {
+    height: 100px;
+    border: 1px solid gray; 
+}
+
+#nav-bar {
+    height: 60px;
+    border: 1px solid gray;
+    margin-top: 10px;  
+}
+
+#mainbody {
+   width: 70%;
+   float: left;
+}
+
+.top-content {
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    width: 650px;
+    height: 250px;
+    border: 1px solid gray;
+    float: left;
+}
+
+.bottom-content {
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    width: 650px;
+    height: 250px;
+    border: 1px solid gray;
+    float: left;
+}
+
+#sidebar {
+    width: 200px;
+    float: right;
+}
+
+.side-content-top {
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    height: 150px;
+    float: right;
+    width: 200px; 
+    border: 1px solid gray;
+}
+
+.side-content-middle {
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    height: 150px;
+    float: right;
+    width: 200px; 
+    border: 1px solid gray;
+}
+
+.side-content-bottom {
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    height: 150px;
+    float: right;
+    width: 200px; 
+    border: 1px solid gray;
+}
+
+#footer {
+    height: 100px;
+    border: 1px solid gray;
+    clear: both;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    background-color: gray;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+}
+
+.first-post{
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
